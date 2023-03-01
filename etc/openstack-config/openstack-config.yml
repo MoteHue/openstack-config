@@ -87,10 +87,10 @@ openstack_network_external:
 openstack_subnet_external:
   name: "{{ openstack_network_external_name }}"
   project: "admin"
-  cidr: "192.168.38.0/24"
+  cidr: "192.168.58.0/24"
   no_gateway_ip: true
-  allocation_pool_start: "192.168.38.129"
-  allocation_pool_end: "192.168.38.254"
+  allocation_pool_start: "192.168.58.129"
+  allocation_pool_end: "192.168.58.254"
 
 # openstack admin tenant network name.
 openstack_network_admin_tenant_name: "admin-tenant"
